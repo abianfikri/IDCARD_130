@@ -171,17 +171,17 @@ and open the template in the editor.
                 </div>
                 <div class="item">
                   <label for="name">Name<span>*</span></label>
-                  <input id="name" type="text" name="name" required/>
+                  <input id="name" type="text" name="name" required placeholder="Enter Your Name" autocomplete="off" autofocus/>
                 </div>
                 <div class="item">
-                  <label for="tanggal">Date<span>*</span></label>
+                  <label for="tanggal">Date of Birth<span>*</span></label>
                   <input id="tanggal" type="date" name="tanggal" required/>
                   <i class="fas fa-calendar-alt"></i>
                 </div>
                 
                 <div class="item">
-                    <label for="gambar">Gambar<span></span></label>
-                    <input id="gambar" type="file" name="gambar" onchange="previewFile()"/>
+                    <label for="gambar">Image<span>*</span></label>
+                    <input id="gambar" type="file" name="gambar" onchange="previewFile()" required/>
                 </div>
 
                 <div class="btn-block">
